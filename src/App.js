@@ -9,11 +9,10 @@ import React, {useState} from 'react';
 // Import the Posts (plural!) and SearchBar components, since they are used inside App component
 import Post from './components/Posts/Post.js';
 import Posts from './components/Posts/Posts.js'
-import searchBar from './components/SearchBar/SearchBar.js';
+import SearchBar from './components/SearchBar/SearchBar.js';
 // Import the dummyData
 import dummyData from "./dummy-data.js";
 import './App.css';
-import SearchBar from './components/SearchBar/SearchBar.js';
 
 const App = () => {
   // Create a state called `posts` to hold the array of post objects, **initializing to dummyData**.
